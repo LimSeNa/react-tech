@@ -1,14 +1,24 @@
 import React, {useState} from 'react';
 
 const EventPractice = () => {
-    const [username, setUsername] = useState('');
-    const [message, setMessage] = useState('');
-    const onChangeUsername = e => setUsername('e.target.value');
-    const onChangeMessge = e => setMessage('e.target.value');
+    const [form, setForm] = useState({
+        username: '',
+        message: ''
+    });
+    const {username, message} = form;
+    const onChange = e => {
+        const nextForm = {
+            ...form,
+            [e.target.name]: e.target.value
+        };
+        setForm(nextForm);
+    };
     const onClick = () => {
         alert(username + ': ' + message);
-        setUsername('');
-        setMessage('');
+        setForm({
+            username: '',
+            message: ''
+        });
     };
     const onKeyPress = e => {
         if (e.key === 'Enter') {
