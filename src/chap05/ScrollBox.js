@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
 
 class ScrollBox extends Component {
+    scrollTopBottom = () => {
+        // 비구조화 할당 문법
+        const {scrollHeight, clientHeight} = this.box
+        // const scrollHeight = this.box.scrollHeight;
+        // const clientHeight = this.box.clientHeight;
+        this.box.scrollTop = scrollHeight - clientHeight;
+    }
+
     render() {
         // 인라인 스타일링 문법
         const style = {
@@ -20,7 +28,9 @@ class ScrollBox extends Component {
         return (
             <div
                 style={style}
-                ref={(ref) => {this.box = ref}}>
+                ref={(ref) => {
+                    this.box = ref
+                }}>
                 <div style={innerStyle}/>
             </div>
         );
