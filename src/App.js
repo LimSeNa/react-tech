@@ -1,16 +1,12 @@
-import React, {Component} from 'react';
-import ScrollBox from "./chap05/ScrollBox";
+import React from 'react';
+import InterationSample from "./chap06/InterationSample";
 
-class App extends Component {
-
-    render() {
-        return (
-            <div>
-                <ScrollBox ref={(ref) => this.scrollBox = ref}/>
-                <button onClick={() => this.scrollBox.scrollTopBottom()}>맨 밑으로</button>
-            </div>
-        );
-    }
-}
+const App = () => {
+    return (
+        <div>
+            <InterationSample/>
+        </div>
+    );
+};
 
 export default App;
