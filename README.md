@@ -3,7 +3,7 @@
 <br>
 <br>
 ### 📚 교재
-- 리액트를 다루는 기(개정판) ・ 김민준 지음
+- 리액트를 다루는 기술(개정판) ・ 김민준 지음
 ### ✏️ 정리
 - [리액트 시작](https://ssena.notion.site/01-5d367ace467d467b89513bae42c22341)<br>
 - [JSX](https://ssena.notion.site/02-JSX-f7396d554cdf4a83aec2d8a4b1b5b3fc)<br>
