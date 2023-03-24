@@ -12,3 +12,4 @@
 - [ref: DOM에 이름 달기](https://ssena.notion.site/05-ref-DOM-f98d2c9539dd4269825bb3be754f2d85)<br>
 - [컴포넌트 반복](https://ssena.notion.site/06-80dad76712ce42b7a0a34c2761244a06)<br>
 - [컴포넌트의 라이프사이클 메서드](https://ssena.notion.site/07-9d6b7dc4831b4dfd8a088c3fbf570a2e)<br>
+- 이후 학습 내용 정리 : [[react-tech-hooks] repository](https://github.com/LimSeNa/react-tech-hooks)
