@@ -17,3 +17,4 @@
 - [컴포넌트의 라이프사이클 메서드](https://ssena.notion.site/07-9d6b7dc4831b4dfd8a088c3fbf570a2e)<br>
 - 이후 hooks 학습 내용 정리 : [[react-tech-hooks] repository](https://github.com/LimSeNa/react-tech-hooks)<br>
 - 이후 styling 학습 내용 정리 : [[react-tech-styling] repository](https://github.com/LimSeNa/react-tech-styling)<br>
+- 이후 일정 관리 웹 애플리케이션 프로젝트 학습 내용 정리 : [[react-tech-todo] repository](https://github.com/LimSeNa/react-tech-todo)<br>
